@@ -8,12 +8,13 @@ export const Statistics = ({title, stats}) => {
   {title && <h2 className={css.title}>{title}</h2>} 
         
         
-      <ul className={css.statistics__thumb}>
-            {stats.map(el => (<li className={css.statistics__number} key={el.id} style={{backgroundColor: setBg()}} >
+<ul className={css.statistics__thumb}>
+          {stats.map(el => (
+   <li className={css.statistics__number} key={el.id} style={{ backgroundColor: setBg() }} >
         <span>{ el.label}</span>
         <span>{ el.percentage}%</span>
    </li>) )}
-      </ul>
+</ul>
 </section>)
 }
 

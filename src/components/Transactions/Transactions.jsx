@@ -2,26 +2,27 @@ import propTypes from 'prop-types';
 import css from './Transactions.module.css';
 
 export const TransactionHistory = ({ items }) => {
-    return (<div className={css.transactions__thumb}><table className={css.transactions__table}>
+    return (<div className={css.transactions__thumb}>
+        <table className={css.transactions__table}>
         <thead className={css.transactions__thead}>
             <tr className={css.transaction__description}>
                 <th>Type</th>
                 <th>Amount</th>
                 <th>Currency</th>
             </tr>
-        </thead>
+       </thead>
 
         {items.map(el =>
-        < tbody className={css.transactions__value} key={el.id} >
+  < tbody className={css.transactions__value} key={el.id} >
     <tr>
-     <td className={css.transactions__type}>{ el.type}</td>
+    <td className={css.transactions__type}>{ el.type}</td>
     <td className={css.transactions__amount}>{ el.amount}</td>
     <td >{ el.currency}</td>
     </tr>
     <tr>
-      <td className={css.transactions__type} >{ el.type}</td>
-     <td className={css.transactions__amount} >{ el.amount}</td>
-     <td className={css.transactions_}>{ el.currency}</td>
+    <td className={css.transactions__type} >{ el.type}</td>
+    <td className={css.transactions__amount} >{ el.amount}</td>
+    <td className={css.transactions_}>{ el.currency}</td>
     </tr>
   </tbody>)}
            
