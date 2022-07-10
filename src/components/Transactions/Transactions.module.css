@@ -1,0 +1,27 @@
+.transactions__thumb{
+    display: flex;
+    justify-content: center;
+}
+
+.transactions__table{
+    border: 1px solid #afb1b8;
+    width: 600px;
+}
+.transactions__thead{
+    background-color: #49cad6;
+    color: #fff;
+}
+.transaction__description{
+  height: 40px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+}
+.transactions__value{
+    text-align: center;
+    background-color: #e3e3e3;
+    color:gray;
+}
+.transactions__type{
+    height: 40px;
+}

@@ -1,0 +1,15 @@
+.title{
+    text-align: center;
+    font-size: 32px;
+    margin: 0 auto;
+    color: darkgrey;
+}
+.statistics__thumb{
+  display: flex;
+  justify-content: center;
+}
+
+.statistics__number{
+    border: 1px solid #afb1b8;
+    padding: 40px;
+}

@@ -1,0 +1,47 @@
+.portfolio{
+    display: flex;
+    justify-content: center;
+   
+}
+
+
+.portfolio__thumb{
+    border: 1px solid #afb1b8;
+    padding-top: 20px;
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+    background-color:aliceblue;
+    width: 360px;
+    border-radius: 5px;
+}
+
+.username{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.6;
+}
+
+.stats__thumb{
+    border: 1px solid #afb1b8;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding-left: 0;
+}
+.stat{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 0.2px solid rgba(214, 216, 224, .885);
+    padding: 20px;
+}
+.stats__description{
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+.stats__amount{
+    font-weight: bold;
+}
